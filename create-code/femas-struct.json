@@ -1,0 +1,4964 @@
+{
+  "CUstpFtdcReqUserLoginField": [
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "Password"
+    },
+    {
+      "fieldType": "TUstpFtdcProductInfoType",
+      "fieldName": "UserProductInfo"
+    },
+    {
+      "fieldType": "TUstpFtdcProductInfoType",
+      "fieldName": "InterfaceProductInfo"
+    },
+    {
+      "fieldType": "TUstpFtdcProtocolInfoType",
+      "fieldName": "ProtocolInfo"
+    },
+    {
+      "fieldType": "TUstpFtdcIPAddressType",
+      "fieldName": "IPAddress"
+    },
+    {
+      "fieldType": "TUstpFtdcMacAddressType",
+      "fieldName": "MacAddress"
+    },
+    {
+      "fieldType": "TUstpFtdcDataCenterIDType",
+      "fieldName": "DataCenterID"
+    },
+    {
+      "fieldType": "TUstpFtdcFileSizeType",
+      "fieldName": "UserProductFileSize"
+    }
+  ],
+  "CUstpFtdcRspUserLoginField": [
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "LoginTime"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "ExchangeTime"
+    },
+    {
+      "fieldType": "TUstpFtdcUserOrderLocalIDType",
+      "fieldName": "MaxOrderLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcTradingSystemNameType",
+      "fieldName": "TradingSystemName"
+    },
+    {
+      "fieldType": "TUstpFtdcDataCenterIDType",
+      "fieldName": "DataCenterID"
+    },
+    {
+      "fieldType": "TUstpFtdcSequenceNoType",
+      "fieldName": "PrivateFlowSize"
+    },
+    {
+      "fieldType": "TUstpFtdcSequenceNoType",
+      "fieldName": "UserFlowSize"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "ActionDay"
+    },
+    {
+      "fieldType": "TUstpFtdcFemasVersionType",
+      "fieldName": "FemasVersion"
+    },
+    {
+      "fieldType": "TUstpFtdcFemasLifeCycleType",
+      "fieldName": "FemasLifeCycle"
+    }
+  ],
+  "CUstpFtdcReqUserLogoutField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    }
+  ],
+  "CUstpFtdcRspUserLogoutField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    }
+  ],
+  "CUstpFtdcForceUserExitField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    }
+  ],
+  "CUstpFtdcUserPasswordUpdateField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "OldPassword"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "NewPassword"
+    }
+  ],
+  "CUstpFtdcInputOrderField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcOrderSysIDType",
+      "fieldName": "OrderSysID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcSeatNoType",
+      "fieldName": "SeatNo"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserOrderLocalIDType",
+      "fieldName": "UserOrderLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcOrderPriceTypeType",
+      "fieldName": "OrderPriceType"
+    },
+    {
+      "fieldType": "TUstpFtdcDirectionType",
+      "fieldName": "Direction"
+    },
+    {
+      "fieldType": "TUstpFtdcOffsetFlagType",
+      "fieldName": "OffsetFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "LimitPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "Volume"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeConditionType",
+      "fieldName": "TimeCondition"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "GTDDate"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeConditionType",
+      "fieldName": "VolumeCondition"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "MinVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "StopPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcForceCloseReasonType",
+      "fieldName": "ForceCloseReason"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "IsAutoSuspend"
+    },
+    {
+      "fieldType": "TUstpFtdcBusinessUnitType",
+      "fieldName": "BusinessUnit"
+    },
+    {
+      "fieldType": "TUstpFtdcCustomType",
+      "fieldName": "UserCustom"
+    },
+    {
+      "fieldType": "TUstpFtdcBusinessLocalIDType",
+      "fieldName": "BusinessLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "ActionDay"
+    },
+    {
+      "fieldType": "TUstpFtdcArbiTypeType",
+      "fieldName": "ArbiType"
+    }
+  ],
+  "CUstpFtdcOrderActionField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcOrderSysIDType",
+      "fieldName": "OrderSysID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserOrderLocalIDType",
+      "fieldName": "UserOrderActionLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserOrderLocalIDType",
+      "fieldName": "UserOrderLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcActionFlagType",
+      "fieldName": "ActionFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "LimitPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "VolumeChange"
+    },
+    {
+      "fieldType": "TUstpFtdcBusinessLocalIDType",
+      "fieldName": "BusinessLocalID"
+    }
+  ],
+  "CUstpFtdcMemDbField": [
+    {
+      "fieldType": "TUstpFtdcMemTableNameType",
+      "fieldName": "MemTableName"
+    }
+  ],
+  "CUstpFtdcstpUserDepositField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Amount"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountDirectionType",
+      "fieldName": "AmountDirection"
+    },
+    {
+      "fieldType": "TUstpFtdcUserOrderLocalIDType",
+      "fieldName": "UserOrderLocalID"
+    }
+  ],
+  "CUstpFtdcstpTransferMoneyField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Amount"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountDirectionType",
+      "fieldName": "AmountDirection"
+    },
+    {
+      "fieldType": "TUstpFtdcUserOrderLocalIDType",
+      "fieldName": "UserOrderLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankPasswdType",
+      "fieldName": "BankPasswd"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountPasswdType",
+      "fieldName": "AccountPasswd"
+    }
+  ],
+  "CUstpFtdcRspInfoField": [
+    {
+      "fieldType": "TUstpFtdcErrorIDType",
+      "fieldName": "ErrorID"
+    },
+    {
+      "fieldType": "TUstpFtdcErrorMsgType",
+      "fieldName": "ErrorMsg"
+    }
+  ],
+  "CUstpFtdcQryOrderField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcOrderSysIDType",
+      "fieldName": "OrderSysID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcOrderStatusType",
+      "fieldName": "OrderStatus"
+    }
+  ],
+  "CUstpFtdcQryTradeField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcTradeIDType",
+      "fieldName": "TradeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    }
+  ],
+  "CUstpFtdcQryInstrumentField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcProductIDType",
+      "fieldName": "ProductID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    }
+  ],
+  "CUstpFtdcRspInstrumentField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcProductIDType",
+      "fieldName": "ProductID"
+    },
+    {
+      "fieldType": "TUstpFtdcProductNameType",
+      "fieldName": "ProductName"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentNameType",
+      "fieldName": "InstrumentName"
+    },
+    {
+      "fieldType": "TUstpFtdcYearType",
+      "fieldName": "DeliveryYear"
+    },
+    {
+      "fieldType": "TUstpFtdcMonthType",
+      "fieldName": "DeliveryMonth"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "MaxLimitOrderVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "MinLimitOrderVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "MaxMarketOrderVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "MinMarketOrderVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeMultipleType",
+      "fieldName": "VolumeMultiple"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceTickType",
+      "fieldName": "PriceTick"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyType",
+      "fieldName": "Currency"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "LongPosLimit"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "ShortPosLimit"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "LowerLimitPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "UpperLimitPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "PreSettlementPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentStatusType",
+      "fieldName": "InstrumentStatus"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "CreateDate"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "OpenDate"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "ExpireDate"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "StartDelivDate"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "EndDelivDate"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "BasisPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "IsTrading"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "UnderlyingInstrID"
+    },
+    {
+      "fieldType": "TUstpFtdcUnderlyingMultipleType",
+      "fieldName": "UnderlyingMultiple"
+    },
+    {
+      "fieldType": "TUstpFtdcPositionTypeType",
+      "fieldName": "PositionType"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "StrikePrice"
+    },
+    {
+      "fieldType": "TUstpFtdcOptionsTypeType",
+      "fieldName": "OptionsType"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "CurrencyID"
+    },
+    {
+      "fieldType": "TUstpFtdcArbiTypeType",
+      "fieldName": "ArbiType"
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    }
+  ],
+  "CUstpFtdcInstrumentStatusField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcProductIDType",
+      "fieldName": "ProductID"
+    },
+    {
+      "fieldType": "TUstpFtdcProductNameType",
+      "fieldName": "ProductName"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentNameType",
+      "fieldName": "InstrumentName"
+    },
+    {
+      "fieldType": "TUstpFtdcYearType",
+      "fieldName": "DeliveryYear"
+    },
+    {
+      "fieldType": "TUstpFtdcMonthType",
+      "fieldName": "DeliveryMonth"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "MaxLimitOrderVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "MinLimitOrderVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "MaxMarketOrderVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "MinMarketOrderVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeMultipleType",
+      "fieldName": "VolumeMultiple"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceTickType",
+      "fieldName": "PriceTick"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyType",
+      "fieldName": "Currency"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "LongPosLimit"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "ShortPosLimit"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "LowerLimitPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "UpperLimitPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "PreSettlementPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentStatusType",
+      "fieldName": "InstrumentStatus"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "CreateDate"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "OpenDate"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "ExpireDate"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "StartDelivDate"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "EndDelivDate"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "BasisPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "IsTrading"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "UnderlyingInstrID"
+    },
+    {
+      "fieldType": "TUstpFtdcUnderlyingMultipleType",
+      "fieldName": "UnderlyingMultiple"
+    },
+    {
+      "fieldType": "TUstpFtdcPositionTypeType",
+      "fieldName": "PositionType"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "StrikePrice"
+    },
+    {
+      "fieldType": "TUstpFtdcOptionsTypeType",
+      "fieldName": "OptionsType"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "CurrencyID"
+    },
+    {
+      "fieldType": "TUstpFtdcArbiTypeType",
+      "fieldName": "ArbiType"
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "EnterDate"
+    }
+  ],
+  "CUstpFtdcQryInvestorAccountField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    }
+  ],
+  "CUstpFtdcRspInvestorAccountField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "PreBalance"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Deposit"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Withdraw"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "FrozenMargin"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "FrozenFee"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "FrozenPremium"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Fee"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "CloseProfit"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "PositionProfit"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Available"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "LongFrozenMargin"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "ShortFrozenMargin"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "LongMargin"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "ShortMargin"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "ReleaseMargin"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "DynamicRights"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "TodayInOut"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Margin"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Premium"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Risk"
+    }
+  ],
+  "CUstpFtdcQryUserInvestorField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    }
+  ],
+  "CUstpFtdcRspUserInvestorField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    }
+  ],
+  "CUstpFtdcQryTradingCodeField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    }
+  ],
+  "CUstpFtdcRspTradingCodeField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcClientIDType",
+      "fieldName": "ClientID"
+    },
+    {
+      "fieldType": "TUstpFtdcTradingRightType",
+      "fieldName": "ClientRight"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "ClientHedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcIsActiveType",
+      "fieldName": "IsActive"
+    }
+  ],
+  "CUstpFtdcQryExchangeField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    }
+  ],
+  "CUstpFtdcRspExchangeField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeNameType",
+      "fieldName": "ExchangeName"
+    }
+  ],
+  "CUstpFtdcQryInvestorPositionField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    }
+  ],
+  "CUstpFtdcRspInvestorPositionField": [
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcClientIDType",
+      "fieldName": "ClientID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcDirectionType",
+      "fieldName": "Direction"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "UsedMargin"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "Position"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "PositionCost"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "YdPosition"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "YdPositionCost"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "FrozenMargin"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "FrozenPosition"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "FrozenClosing"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "YdFrozenClosing"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "FrozenPremium"
+    },
+    {
+      "fieldType": "TUstpFtdcTradeIDType",
+      "fieldName": "LastTradeID"
+    },
+    {
+      "fieldType": "TUstpFtdcOrderLocalIDType",
+      "fieldName": "LastOrderLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "SpeculationPosition"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "ArbitragePosition"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "HedgePosition"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "SpecFrozenClosing"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "HedgeFrozenClosing"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "Currency"
+    }
+  ],
+  "CUstpFtdcQryComplianceParamField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    }
+  ],
+  "CUstpFtdcRspComplianceParamField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcClientIDType",
+      "fieldName": "ClientID"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "DailyMaxOrder"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "DailyMaxOrderAction"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "DailyMaxErrorOrder"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "DailyMaxOrderVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "DailyMaxOrderActionVolume"
+    }
+  ],
+  "CUstpFtdcQryUserField": [
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "StartUserID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "EndUserID"
+    }
+  ],
+  "CUstpFtdcUserField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "Password"
+    },
+    {
+      "fieldType": "TUstpFtdcIsActiveType",
+      "fieldName": "IsActive"
+    },
+    {
+      "fieldType": "TUstpFtdcUserNameType",
+      "fieldName": "UserName"
+    },
+    {
+      "fieldType": "TUstpFtdcUserTypeType",
+      "fieldName": "UserType"
+    },
+    {
+      "fieldType": "TUstpFtdcDepartmentType",
+      "fieldName": "Department"
+    },
+    {
+      "fieldType": "TUstpFtdcGrantFuncSetType",
+      "fieldName": "GrantFuncSet"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "SetUserID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "CommandDate"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "CommandTime"
+    }
+  ],
+  "CUstpFtdcQryInvestorFeeField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    }
+  ],
+  "CUstpFtdcInvestorFeeField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcClientIDType",
+      "fieldName": "ClientID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcProductIDType",
+      "fieldName": "ProductID"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "OpenFeeRate"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "OpenFeeAmt"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "OffsetFeeRate"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "OffsetFeeAmt"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "OTFeeRate"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "OTFeeAmt"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "PerOrderAmt"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "PerCancelAmt"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    }
+  ],
+  "CUstpFtdcQryInvestorMarginField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    }
+  ],
+  "CUstpFtdcInvestorMarginField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcClientIDType",
+      "fieldName": "ClientID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcProductIDType",
+      "fieldName": "ProductID"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "LongMarginRate"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "LongMarginAmt"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "ShortMarginRate"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "ShortMarginAmt"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    }
+  ],
+  "CUstpFtdcInputSettlementInfoConfirmField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "ConfirmDate"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "ConfirmTime"
+    }
+  ],
+  "CUstpFtdcSettlementInfoConfirmField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "ConfirmDate"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "ConfirmTime"
+    }
+  ],
+  "CUstpFtdcQrySettlementInfoConfirmField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    }
+  ],
+  "CUstpFtdcTradeField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcTradingDayType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcParticipantIDType",
+      "fieldName": "ParticipantID"
+    },
+    {
+      "fieldType": "TUstpFtdcSeatIDType",
+      "fieldName": "SeatID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcClientIDType",
+      "fieldName": "ClientID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "OrderUserID"
+    },
+    {
+      "fieldType": "TUstpFtdcTradeIDType",
+      "fieldName": "TradeID"
+    },
+    {
+      "fieldType": "TUstpFtdcOrderSysIDType",
+      "fieldName": "OrderSysID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserOrderLocalIDType",
+      "fieldName": "UserOrderLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcDirectionType",
+      "fieldName": "Direction"
+    },
+    {
+      "fieldType": "TUstpFtdcOffsetFlagType",
+      "fieldName": "OffsetFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "TradePrice"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "TradeVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "TradeTime"
+    },
+    {
+      "fieldType": "TUstpFtdcParticipantIDType",
+      "fieldName": "ClearingPartID"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "UsedFee"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "UsedMargin"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Premium"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "Position"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "PositionCost"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Available"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Margin"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "FrozenMargin"
+    },
+    {
+      "fieldType": "TUstpFtdcBusinessLocalIDType",
+      "fieldName": "BusinessLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "ActionDay"
+    },
+    {
+      "fieldType": "TUstpFtdcArbiTypeType",
+      "fieldName": "ArbiType"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "ArbiInstrumentID"
+    }
+  ],
+  "CUstpFtdcOrderField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcOrderSysIDType",
+      "fieldName": "OrderSysID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcSeatNoType",
+      "fieldName": "SeatNo"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserOrderLocalIDType",
+      "fieldName": "UserOrderLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcOrderPriceTypeType",
+      "fieldName": "OrderPriceType"
+    },
+    {
+      "fieldType": "TUstpFtdcDirectionType",
+      "fieldName": "Direction"
+    },
+    {
+      "fieldType": "TUstpFtdcOffsetFlagType",
+      "fieldName": "OffsetFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "LimitPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "Volume"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeConditionType",
+      "fieldName": "TimeCondition"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "GTDDate"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeConditionType",
+      "fieldName": "VolumeCondition"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "MinVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "StopPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcForceCloseReasonType",
+      "fieldName": "ForceCloseReason"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "IsAutoSuspend"
+    },
+    {
+      "fieldType": "TUstpFtdcBusinessUnitType",
+      "fieldName": "BusinessUnit"
+    },
+    {
+      "fieldType": "TUstpFtdcCustomType",
+      "fieldName": "UserCustom"
+    },
+    {
+      "fieldType": "TUstpFtdcBusinessLocalIDType",
+      "fieldName": "BusinessLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "ActionDay"
+    },
+    {
+      "fieldType": "TUstpFtdcArbiTypeType",
+      "fieldName": "ArbiType"
+    },
+    {
+      "fieldType": "TUstpFtdcTradingDayType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcParticipantIDType",
+      "fieldName": "ParticipantID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "OrderUserID"
+    },
+    {
+      "fieldType": "TUstpFtdcClientIDType",
+      "fieldName": "ClientID"
+    },
+    {
+      "fieldType": "TUstpFtdcSeatIDType",
+      "fieldName": "SeatID"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "InsertTime"
+    },
+    {
+      "fieldType": "TUstpFtdcOrderLocalIDType",
+      "fieldName": "OrderLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcOrderSourceType",
+      "fieldName": "OrderSource"
+    },
+    {
+      "fieldType": "TUstpFtdcOrderStatusType",
+      "fieldName": "OrderStatus"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "CancelTime"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "CancelUserID"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "VolumeTraded"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "VolumeRemain"
+    }
+  ],
+  "CUstpFtdcFlowMessageCancelField": [
+    {
+      "fieldType": "TUstpFtdcSequenceSeriesType",
+      "fieldName": "SequenceSeries"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcDataCenterIDType",
+      "fieldName": "DataCenterID"
+    },
+    {
+      "fieldType": "TUstpFtdcSequenceNoType",
+      "fieldName": "StartSequenceNo"
+    },
+    {
+      "fieldType": "TUstpFtdcSequenceNoType",
+      "fieldName": "EndSequenceNo"
+    }
+  ],
+  "CUstpFtdcDisseminationField": [
+    {
+      "fieldType": "TUstpFtdcSequenceSeriesType",
+      "fieldName": "SequenceSeries"
+    },
+    {
+      "fieldType": "TUstpFtdcSequenceNoType",
+      "fieldName": "SequenceNo"
+    }
+  ],
+  "CUstpFtdcInvestorAccountDepositResField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountSeqNoType",
+      "fieldName": "AccountSeqNo"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Amount"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountDirectionType",
+      "fieldName": "AmountDirection"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Available"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Balance"
+    }
+  ],
+  "CUstpFtdcInputQuoteField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcQuoteSysIDType",
+      "fieldName": "QuoteSysID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserQuoteLocalIDType",
+      "fieldName": "UserQuoteLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcQuoteLocalIDType",
+      "fieldName": "QuoteLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "BidVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcOffsetFlagType",
+      "fieldName": "BidOffsetFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "BidHedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "BidPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "AskVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcOffsetFlagType",
+      "fieldName": "AskOffsetFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "AskHedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "AskPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcBusinessUnitType",
+      "fieldName": "BusinessUnit"
+    },
+    {
+      "fieldType": "TUstpFtdcCustomType",
+      "fieldName": "UserCustom"
+    },
+    {
+      "fieldType": "TUstpFtdcUserOrderLocalIDType",
+      "fieldName": "BidUserOrderLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserOrderLocalIDType",
+      "fieldName": "AskUserOrderLocalID"
+    }
+  ],
+  "CUstpFtdcRtnQuoteField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcQuoteSysIDType",
+      "fieldName": "QuoteSysID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserQuoteLocalIDType",
+      "fieldName": "UserQuoteLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcQuoteLocalIDType",
+      "fieldName": "QuoteLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "BidVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcOffsetFlagType",
+      "fieldName": "BidOffsetFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "BidHedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "BidPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "AskVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcOffsetFlagType",
+      "fieldName": "AskOffsetFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "AskHedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "AskPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcBusinessUnitType",
+      "fieldName": "BusinessUnit"
+    },
+    {
+      "fieldType": "TUstpFtdcCustomType",
+      "fieldName": "UserCustom"
+    },
+    {
+      "fieldType": "TUstpFtdcUserOrderLocalIDType",
+      "fieldName": "BidUserOrderLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserOrderLocalIDType",
+      "fieldName": "AskUserOrderLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcQuoteSysIDType",
+      "fieldName": "BidOrderSysID"
+    },
+    {
+      "fieldType": "TUstpFtdcQuoteSysIDType",
+      "fieldName": "AskOrderSysID"
+    },
+    {
+      "fieldType": "TUstpFtdcQuoteStatusType",
+      "fieldName": "QuoteStatus"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "InsertTime"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "CancelTime"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "TradeTime"
+    }
+  ],
+  "CUstpFtdcQuoteActionField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcQuoteSysIDType",
+      "fieldName": "QuoteSysID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserQuoteLocalIDType",
+      "fieldName": "UserQuoteLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserQuoteLocalIDType",
+      "fieldName": "UserQuoteActionLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcActionFlagType",
+      "fieldName": "ActionFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcBusinessUnitType",
+      "fieldName": "BusinessUnit"
+    },
+    {
+      "fieldType": "TUstpFtdcCustomType",
+      "fieldName": "UserCustom"
+    }
+  ],
+  "CUstpFtdcReqForQuoteField": [
+    {
+      "fieldType": "TUstpFtdcQuoteSysIDType",
+      "fieldName": "ReqForQuoteID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "ReqForQuoteTime"
+    }
+  ],
+  "CUstpFtdcMarketDataBaseField": [
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcSettlementGroupIDType",
+      "fieldName": "SettlementGroupID"
+    },
+    {
+      "fieldType": "TUstpFtdcSettlementIDType",
+      "fieldName": "SettlementID"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "PreSettlementPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "PreClosePrice"
+    },
+    {
+      "fieldType": "TUstpFtdcLargeVolumeType",
+      "fieldName": "PreOpenInterest"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "PreDelta"
+    }
+  ],
+  "CUstpFtdcMarketDataStaticField": [
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "OpenPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "HighestPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "LowestPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "ClosePrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "UpperLimitPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "LowerLimitPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "SettlementPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "CurrDelta"
+    }
+  ],
+  "CUstpFtdcMarketDataLastMatchField": [
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "LastPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "Volume"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Turnover"
+    },
+    {
+      "fieldType": "TUstpFtdcLargeVolumeType",
+      "fieldName": "OpenInterest"
+    }
+  ],
+  "CUstpFtdcMarketDataBestPriceField": [
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    }
+  ],
+  "CUstpFtdcMarketDataUpdateTimeField": [
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "UpdateTime"
+    },
+    {
+      "fieldType": "TUstpFtdcMillisecType",
+      "fieldName": "UpdateMillisec"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "ActionDay"
+    }
+  ],
+  "CUstpFtdcDepthMarketDataField": [
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcSettlementGroupIDType",
+      "fieldName": "SettlementGroupID"
+    },
+    {
+      "fieldType": "TUstpFtdcSettlementIDType",
+      "fieldName": "SettlementID"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "PreSettlementPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "PreClosePrice"
+    },
+    {
+      "fieldType": "TUstpFtdcLargeVolumeType",
+      "fieldName": "PreOpenInterest"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "PreDelta"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "OpenPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "HighestPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "LowestPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "ClosePrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "UpperLimitPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "LowerLimitPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "SettlementPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "CurrDelta"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "LastPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "Volume"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Turnover"
+    },
+    {
+      "fieldType": "TUstpFtdcLargeVolumeType",
+      "fieldName": "OpenInterest"
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "UpdateTime"
+    },
+    {
+      "fieldType": "TUstpFtdcMillisecType",
+      "fieldName": "UpdateMillisec"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "ActionDay"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "HisHighestPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "HisLowestPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "LatestVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "InitVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "ChangeVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "BidImplyVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "AskImplyVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcPriceType",
+      "fieldName": "AvgPrice"
+    },
+    {
+      "fieldType": "TUstpFtdcArbiTypeType",
+      "fieldName": "ArbiType"
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentName"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "TotalBidVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "TotalAskVolume"
+    }
+  ],
+  "CUstpFtdcSpecificInstrumentField": [
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    }
+  ],
+  "CUstpFtdcMultiChannelHeartBeatField": [
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "UstpMultiChannelHeartBeatTimeOut"
+    }
+  ],
+  "CUstpFtdcReqMarketTopicField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    }
+  ],
+  "CUstpFtdcRspMarketTopicField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcSequenceSeriesType",
+      "fieldName": "TopicID"
+    }
+  ],
+  "CUstpFtdcInputMarginCombActionField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcUserOrderLocalIDType",
+      "fieldName": "UserActionLocalID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "CombInstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "CombVolume"
+    },
+    {
+      "fieldType": "TUstpFtdcCombDirectionType",
+      "fieldName": "CombDirection"
+    },
+    {
+      "fieldType": "TUstpFtdcOrderLocalIDType",
+      "fieldName": "ActionLocalID"
+    }
+  ],
+  "CUstpFtdcQryInvestorCombPositionField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "CombInstrumentID"
+    }
+  ],
+  "CUstpFtdcRspInvestorCombPositionField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcDirectionType",
+      "fieldName": "Direction"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcClientIDType",
+      "fieldName": "ClientID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "CombInstrumentID"
+    },
+    {
+      "fieldType": "InstrumentID",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "InstrumentID",
+      "fieldName": ""
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "CombPosition"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "CombFrozenPosition"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "CombFreeMargin"
+    }
+  ],
+  "CUstpFtdcMarginCombinationLegField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "CombInstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcLegIDType",
+      "fieldName": "LegID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "LegInstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcDirectionType",
+      "fieldName": "Direction"
+    },
+    {
+      "fieldType": "TUstpFtdcLegMultipleType",
+      "fieldName": "LegMultiple"
+    },
+    {
+      "fieldType": "TUstpFtdcPriorityType",
+      "fieldName": "Priority"
+    }
+  ],
+  "CUstpFtdcQryInvestorLegPositionField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "LegInstrumentID"
+    }
+  ],
+  "CUstpFtdcRspInvestorLegPositionField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcClientIDType",
+      "fieldName": "ClientID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "LongPosition"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "ShortPosition"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "LongMargin"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "ShortMargin"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "LongFrozenPosition"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "ShortFrozenPosition"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "LongFrozenMargin"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "ShortFrozenMargin"
+    }
+  ],
+  "CUstpFtdcQryUstpInstrumentGroupField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    }
+  ],
+  "CUstpFtdcRspInstrumentGroupField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentGroupIDType",
+      "fieldName": "InstrumentGroupID"
+    }
+  ],
+  "CUstpFtdcQryClientMarginCombTypeField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentGroupIDType",
+      "fieldName": "InstrumentGroupID"
+    }
+  ],
+  "CUstpFtdcRspClientMarginCombTypeField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcParticipantIDType",
+      "fieldName": "ParticipantID"
+    },
+    {
+      "fieldType": "TUstpFtdcClientIDType",
+      "fieldName": "ClientID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentGroupIDType",
+      "fieldName": "InstrumentGroupID"
+    },
+    {
+      "fieldType": "TUstpFtdcClientMarginCombTypeType",
+      "fieldName": "MarginCombType"
+    }
+  ],
+  "CUstpFtdcReqQrySystemTimeField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    }
+  ],
+  "CUstpFtdcRspQrySystemTimeField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "SystemTime"
+    }
+  ],
+  "CUstpFtdcReqRiskLoginField": [
+    {
+      "fieldType": "TUstpFtdcRiskIDType",
+      "fieldName": "RiskID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "Password"
+    }
+  ],
+  "CUstpFtdcRspRiskLoginField": [
+    {
+      "fieldType": "TUstpFtdcRiskIDType",
+      "fieldName": "RiskID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "Password"
+    }
+  ],
+  "CUstpFtdcReqRiskLogoutField": [
+    {
+      "fieldType": "TUstpFtdcRiskIDType",
+      "fieldName": "RiskID"
+    }
+  ],
+  "CUstpFtdcRspRiskLogoutField": [
+    {
+      "fieldType": "TUstpFtdcRiskIDType",
+      "fieldName": "RiskID"
+    }
+  ],
+  "CUstpFtdcQryInvestorTradingRightField": [
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    }
+  ],
+  "CUstpFtdcInvestorTradingRightField": [
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcTradingRightType",
+      "fieldName": "TradingRight"
+    }
+  ],
+  "CUstpFtdcQrySeatAvailableMoneyField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcSeatIDType",
+      "fieldName": "SeatID"
+    }
+  ],
+  "CUstpFtdcSeatAvailableMoneyField": [
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcSeatIDType",
+      "fieldName": "SeatID"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "Available"
+    }
+  ],
+  "CUstpFtdcMarginTemplateChangeField": [
+    {
+      "fieldType": "TUstpFtdcMarginTemplateNoType",
+      "fieldName": "MarginTemplateNo"
+    },
+    {
+      "fieldType": "TUstpFtdcTemplateNameType",
+      "fieldName": "MarginTemplateName"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcProductIDType",
+      "fieldName": "ProductID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "LongMarginRate"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "LongMarginAmt"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "ShortMarginRate"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "ShortMarginAmt"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "ExtraMarginRate"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "ExtraMarginAmt"
+    }
+  ],
+  "CUstpFtdcInvestorMarginTemplateChangeField": [
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcMarginTemplateNoType",
+      "fieldName": "MarginTemplateNo"
+    }
+  ],
+  "CUstpFtdcFeeTemplateChangeField": [
+    {
+      "fieldType": "TUstpFtdcFeeTemplateNoType",
+      "fieldName": "FeeTemplateNo"
+    },
+    {
+      "fieldType": "TUstpFtdcTemplateNameType",
+      "fieldName": "FeeTemplateName"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcProductIDType",
+      "fieldName": "ProductID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "OpenFeeRate"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "OpenFeeAmt"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "OffsetFeeRate"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "OffsetFeeAmt"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "OTFeeRate"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "OTFeeAmt"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "PerOrderAmt"
+    },
+    {
+      "fieldType": "TUstpFtdcRatioType",
+      "fieldName": "PerCancelAmt"
+    }
+  ],
+  "CUstpFtdcInvestorFeeTemplateChangeField": [
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcFeeTemplateNoType",
+      "fieldName": "FeeTemplateNo"
+    }
+  ],
+  "CUstpFtdcRiskWarningField": [
+    {
+      "fieldType": "TUstpFtdcRiskWarningNoType",
+      "fieldName": "RiskWarningNo"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcRiskWarningTypeType",
+      "fieldName": "RiskWarningType"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "NeedConfirmation"
+    },
+    {
+      "fieldType": "TUstpFtdcRiskWarningAbstractType",
+      "fieldName": "Abstract"
+    },
+    {
+      "fieldType": "TUstpFtdcRiskWarningContentType",
+      "fieldName": "Content"
+    }
+  ],
+  "CUstpFtdcRspRiskWarningField": [
+    {
+      "fieldType": "TUstpFtdcRiskWarningNoType",
+      "fieldName": "RiskWarningNo"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    }
+  ],
+  "CUstpFtdcRiskWarningConfirmationField": [
+    {
+      "fieldType": "TUstpFtdcRiskWarningNoType",
+      "fieldName": "RiskWarningNo"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcIPAddressType",
+      "fieldName": "IPAddress"
+    },
+    {
+      "fieldType": "TUstpFtdcMacAddressType",
+      "fieldName": "MacAddress"
+    }
+  ],
+  "CUstpFtdcCFMMCTradingAccountKeyReqField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    }
+  ],
+  "CUstpFtdcCFMMCTradingAccountKeyRspField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcParticipantIDType",
+      "fieldName": "ParticipantID"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcSequenceNoTypeType",
+      "fieldName": "KeyID"
+    },
+    {
+      "fieldType": "TUstpFtdcCFMMCKeyType",
+      "fieldName": "CurrentKey"
+    }
+  ],
+  "CUstpFtdcSettlementQryReqField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    }
+  ],
+  "CUstpFtdcSettlementRspField": [
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcSettlementIDType",
+      "fieldName": "SettlementID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcSequenceNoType",
+      "fieldName": "SequenceNo"
+    },
+    {
+      "fieldType": "TUstpFtdcLogStrType",
+      "fieldName": "Content"
+    }
+  ],
+  "CUstpFtdcTradingAccountPasswordUpdateReqField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "OldPassword"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "NewPassword"
+    }
+  ],
+  "CUstpFtdcTradingAccountPasswordUpdateRspField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "OldPassword"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "NewPassword"
+    }
+  ],
+  "CUstpFtdcTransferBankQryReqField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    }
+  ],
+  "CUstpFtdcTransferBankQryRspField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankNameType",
+      "fieldName": "BankName"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "isActive"
+    }
+  ],
+  "CUstpFtdcEWarrantOffsetFieldReqField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    }
+  ],
+  "CUstpFtdcEWarrantOffsetFieldRspField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcExchangeIDType",
+      "fieldName": "ExchangeID"
+    },
+    {
+      "fieldType": "TUstpFtdcInstrumentIDType",
+      "fieldName": "InstrumentID"
+    },
+    {
+      "fieldType": "TUstpFtdcDirectionType",
+      "fieldName": "Direction"
+    },
+    {
+      "fieldType": "TUstpFtdcHedgeFlagType",
+      "fieldName": "HedgeFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcVolumeType",
+      "fieldName": "Volume"
+    }
+  ],
+  "CUstpFtdcTransferSerialFieldReqField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    }
+  ],
+  "CUstpFtdcTransferSerialFieldRspField": [
+    {
+      "fieldType": "TUstpFtdcPlateSerialType",
+      "fieldName": "PlateSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradeDate"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "TradeTime"
+    },
+    {
+      "fieldType": "TUstpFtdcTradeCodeType",
+      "fieldName": "TradeCode"
+    },
+    {
+      "fieldType": "TUstpFtdcSessionIDType",
+      "fieldName": "SessionID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankAccount"
+    },
+    {
+      "fieldType": "TUstpFtdcBankSerialType",
+      "fieldName": "BankSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureBranchIDType",
+      "fieldName": "BrokerBranchID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureAccType",
+      "fieldName": "FutureAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "InvestorID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureSerialType",
+      "fieldName": "FutureSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcIdCardTypeType",
+      "fieldName": "IdCardType"
+    },
+    {
+      "fieldType": "TUstpFtdcIdentifiedCardNoType",
+      "fieldName": "IdentifiedCardNo"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "CurrencyID"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "TradeAmount"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "CustFee"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "BrokerFee"
+    },
+    {
+      "fieldType": "TUstpFtdcAvailabilityFlagTypeType",
+      "fieldName": "AvailabilityFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcOperatorCodeType",
+      "fieldName": "OperatorCode"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankNewAccount"
+    }
+  ],
+  "CUstpFtdcAccountregisterReqField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    }
+  ],
+  "CUstpFtdcAccountregisterRspField": [
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradeDate"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankAccount"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcIdCardTypeType",
+      "fieldName": "IdCardType"
+    },
+    {
+      "fieldType": "TUstpFtdcIdentifiedCardNoType",
+      "fieldName": "IdentifiedCardNo"
+    },
+    {
+      "fieldType": "TUstpFtdcIndividualNameType",
+      "fieldName": "CustomerName"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "CurrencyID"
+    },
+    {
+      "fieldType": "TUstpFtdcOpenOrDestroyTypeType",
+      "fieldName": "OpenOrDestroy"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "RegDate"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "OutDate"
+    },
+    {
+      "fieldType": "TUstpFtdcTIDType",
+      "fieldName": "TID"
+    },
+    {
+      "fieldType": "TUstpFtdcCustTypeType",
+      "fieldName": "CustType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankAccType"
+    }
+  ],
+  "CUstpFtdcContractBankFieldReqField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    }
+  ],
+  "CUstpFtdcContractBankFieldRspField": [
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankNameType",
+      "fieldName": "BankName"
+    }
+  ],
+  "CUstpFtdcTransferFieldReqField": [
+    {
+      "fieldType": "TUstpFtdcTradeCodeType",
+      "fieldName": "TradeCode"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureBranchIDType",
+      "fieldName": "BrokerBranchID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradeDate"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "TradeTime"
+    },
+    {
+      "fieldType": "TUstpFtdcBankSerialType",
+      "fieldName": "BankSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcPlateSerialType",
+      "fieldName": "PlateSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "LastFragment"
+    },
+    {
+      "fieldType": "TUstpFtdcSessionIDType",
+      "fieldName": "SessionID"
+    },
+    {
+      "fieldType": "TUstpFtdcIndividualNameType",
+      "fieldName": "CustomerName"
+    },
+    {
+      "fieldType": "TUstpFtdcIdCardTypeType",
+      "fieldName": "IdCardType"
+    },
+    {
+      "fieldType": "TUstpFtdcIdentifiedCardNoType",
+      "fieldName": "IdentifiedCardNo"
+    },
+    {
+      "fieldType": "TUstpFtdcCustTypeType",
+      "fieldName": "CustType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankAccount"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "BankPassWord"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "Password"
+    },
+    {
+      "fieldType": "TUstpFtdcInstallIDType",
+      "fieldName": "InstallID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureSerialType",
+      "fieldName": "FutureSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "VerifyCertNoFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "CurrencyID"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "TradeAmount"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "FutureFetchAmount"
+    },
+    {
+      "fieldType": "TUstpFtdcFeePayFlagType",
+      "fieldName": "FeePayFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "CustFee"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "BrokerFee"
+    },
+    {
+      "fieldType": "TUstpFtdcMessageType",
+      "fieldName": "Message"
+    },
+    {
+      "fieldType": "TUstpFtdcMessageType",
+      "fieldName": "Digest"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcDeviceIdType",
+      "fieldName": "DeviceID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankSecuAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankCodingForFutureType",
+      "fieldName": "BrokerIDByBank"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankSecuAcc"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "BankPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "SecuPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcOperNoType",
+      "fieldName": "OperNo"
+    },
+    {
+      "fieldType": "TUstpFtdcRequestIDType",
+      "fieldName": "RequestID"
+    },
+    {
+      "fieldType": "TUstpFtdcTIDType",
+      "fieldName": "TID"
+    },
+    {
+      "fieldType": "TUstpFtdcTransferStatusType",
+      "fieldName": "TransferStatus"
+    }
+  ],
+  "CUstpFtdcAccountFieldReqField": [
+    {
+      "fieldType": "TUstpFtdcTradeCodeType",
+      "fieldName": "TradeCode"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureBranchIDType",
+      "fieldName": "BrokerBranchID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradeDate"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "TradeTime"
+    },
+    {
+      "fieldType": "TUstpFtdcBankSerialType",
+      "fieldName": "BankSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcPlateSerialType",
+      "fieldName": "PlateSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "LastFragment"
+    },
+    {
+      "fieldType": "TUstpFtdcSessionIDType",
+      "fieldName": "SessionID"
+    },
+    {
+      "fieldType": "TUstpFtdcIndividualNameType",
+      "fieldName": "CustomerName"
+    },
+    {
+      "fieldType": "TUstpFtdcIdCardTypeType",
+      "fieldName": "IdCardType"
+    },
+    {
+      "fieldType": "TUstpFtdcIdentifiedCardNoType",
+      "fieldName": "IdentifiedCardNo"
+    },
+    {
+      "fieldType": "TUstpFtdcCustTypeType",
+      "fieldName": "CustType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankAccount"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "BankPassWord"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "Password"
+    },
+    {
+      "fieldType": "TUstpFtdcInstallIDType",
+      "fieldName": "InstallID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureSerialType",
+      "fieldName": "FutureSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "VerifyCertNoFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "CurrencyID"
+    },
+    {
+      "fieldType": "TUstpFtdcMessageType",
+      "fieldName": "Digest"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcDeviceIdType",
+      "fieldName": "DeviceID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankSecuAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankCodingForFutureType",
+      "fieldName": "BrokerIDByBank"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankSecuAcc"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "BankPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "SecuPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcOperNoType",
+      "fieldName": "OperNo"
+    },
+    {
+      "fieldType": "TUstpFtdcRequestIDType",
+      "fieldName": "RequestID"
+    },
+    {
+      "fieldType": "TUstpFtdcTIDType",
+      "fieldName": "TID"
+    }
+  ],
+  "CUstpFtdcAccountFieldRtnField": [
+    {
+      "fieldType": "TUstpFtdcTradeCodeType",
+      "fieldName": "TradeCode"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureBranchIDType",
+      "fieldName": "BrokerBranchID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradeDate"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "TradeTime"
+    },
+    {
+      "fieldType": "TUstpFtdcBankSerialType",
+      "fieldName": "BankSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcPlateSerialType",
+      "fieldName": "PlateSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "LastFragment"
+    },
+    {
+      "fieldType": "TUstpFtdcSessionIDType",
+      "fieldName": "SessionID"
+    },
+    {
+      "fieldType": "TUstpFtdcIndividualNameType",
+      "fieldName": "CustomerName"
+    },
+    {
+      "fieldType": "TUstpFtdcIdCardTypeType",
+      "fieldName": "IdCardType"
+    },
+    {
+      "fieldType": "TUstpFtdcIdentifiedCardNoType",
+      "fieldName": "IdentifiedCardNo"
+    },
+    {
+      "fieldType": "TUstpFtdcCustTypeType",
+      "fieldName": "CustType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankAccount"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "BankPassWord"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "Password"
+    },
+    {
+      "fieldType": "TUstpFtdcInstallIDType",
+      "fieldName": "InstallID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureSerialType",
+      "fieldName": "FutureSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "VerifyCertNoFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "CurrencyID"
+    },
+    {
+      "fieldType": "TUstpFtdcMessageType",
+      "fieldName": "Digest"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcDeviceIdType",
+      "fieldName": "DeviceID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankSecuAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankCodingForFutureType",
+      "fieldName": "BrokerIDByBank"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankSecuAcc"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "BankPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "SecuPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcOperNoType",
+      "fieldName": "OperNo"
+    },
+    {
+      "fieldType": "TUstpFtdcRequestIDType",
+      "fieldName": "RequestID"
+    },
+    {
+      "fieldType": "TUstpFtdcTIDType",
+      "fieldName": "TID"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "BankUseAmount"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "BankFetchAmount"
+    }
+  ],
+  "CUstpFtdcRepealFieldRspField": [
+    {
+      "fieldType": "TUstpFtdcRepealTimeIntervalType",
+      "fieldName": "RepealTimeInterval"
+    },
+    {
+      "fieldType": "TUstpFtdcRepealedTimesType",
+      "fieldName": "RepealedTimes"
+    },
+    {
+      "fieldType": "TUstpFtdcBankRepealFlagType",
+      "fieldName": "BankRepealFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerRepealFlagType",
+      "fieldName": "BrokerRepealFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPlateSerialType",
+      "fieldName": "PlateRepealSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcBankSerialType",
+      "fieldName": "BankRepealSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureSerialType",
+      "fieldName": "FutureRepealSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcTradeCodeType",
+      "fieldName": "TradeCode"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureBranchIDType",
+      "fieldName": "BrokerBranchID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradeDate"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "TradeTime"
+    },
+    {
+      "fieldType": "TUstpFtdcBankSerialType",
+      "fieldName": "BankSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcPlateSerialType",
+      "fieldName": "PlateSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "LastFragment"
+    },
+    {
+      "fieldType": "TUstpFtdcSessionIDType",
+      "fieldName": "SessionID"
+    },
+    {
+      "fieldType": "TUstpFtdcIndividualNameType",
+      "fieldName": "CustomerName"
+    },
+    {
+      "fieldType": "TUstpFtdcIdCardTypeType",
+      "fieldName": "IdCardType"
+    },
+    {
+      "fieldType": "TUstpFtdcIdentifiedCardNoType",
+      "fieldName": "IdentifiedCardNo"
+    },
+    {
+      "fieldType": "TUstpFtdcCustTypeType",
+      "fieldName": "CustType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankAccount"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "BankPassWord"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "Password"
+    },
+    {
+      "fieldType": "TUstpFtdcInstallIDType",
+      "fieldName": "InstallID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureSerialType",
+      "fieldName": "FutureSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "VerifyCertNoFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "CurrencyID"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "TradeAmount"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "FutureFetchAmount"
+    },
+    {
+      "fieldType": "TUstpFtdcFeePayFlagType",
+      "fieldName": "FeePayFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "CustFee"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "BrokerFee"
+    },
+    {
+      "fieldType": "TUstpFtdcMessageType",
+      "fieldName": "Message"
+    },
+    {
+      "fieldType": "TUstpFtdcMessageType",
+      "fieldName": "Digest"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcDeviceIdType",
+      "fieldName": "DeviceID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankSecuAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankCodingForFutureType",
+      "fieldName": "BrokerIDByBank"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankSecuAcc"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "BankPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "SecuPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcOperNoType",
+      "fieldName": "OperNo"
+    },
+    {
+      "fieldType": "TUstpFtdcRequestIDType",
+      "fieldName": "RequestID"
+    },
+    {
+      "fieldType": "TUstpFtdcTIDType",
+      "fieldName": "TID"
+    },
+    {
+      "fieldType": "TUstpFtdcTransferStatusType",
+      "fieldName": "TransferStatus"
+    }
+  ],
+  "CUstpFtdcAccountFieldField": [
+    {
+      "fieldType": "TUstpFtdcTradeCodeType",
+      "fieldName": "TradeCode"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureBranchIDType",
+      "fieldName": "BrokerBranchID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradeDate"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "TradeTime"
+    },
+    {
+      "fieldType": "TUstpFtdcBankSerialType",
+      "fieldName": "BankSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcPlateSerialType",
+      "fieldName": "PlateSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "LastFragment"
+    },
+    {
+      "fieldType": "TUstpFtdcSessionIDType",
+      "fieldName": "SessionID"
+    },
+    {
+      "fieldType": "TUstpFtdcIndividualNameType",
+      "fieldName": "CustomerName"
+    },
+    {
+      "fieldType": "TUstpFtdcIdCardTypeType",
+      "fieldName": "IdCardType"
+    },
+    {
+      "fieldType": "TUstpFtdcIdentifiedCardNoType",
+      "fieldName": "IdentifiedCardNo"
+    },
+    {
+      "fieldType": "TUstpFtdcGenderType",
+      "fieldName": "Gender"
+    },
+    {
+      "fieldType": "TUstpFtdcCountryCodeType",
+      "fieldName": "CountryCode"
+    },
+    {
+      "fieldType": "TUstpFtdcCustTypeType",
+      "fieldName": "CustType"
+    },
+    {
+      "fieldType": "TUstpFtdcAddressType",
+      "fieldName": "Address"
+    },
+    {
+      "fieldType": "TUstpFtdcZipCodeType",
+      "fieldName": "ZipCode"
+    },
+    {
+      "fieldType": "TUstpFtdcTelephoneType",
+      "fieldName": "Telephone"
+    },
+    {
+      "fieldType": "TUstpFtdcMobilePhoneType",
+      "fieldName": "MobilePhone"
+    },
+    {
+      "fieldType": "TUstpFtdcFaxType",
+      "fieldName": "Fax"
+    },
+    {
+      "fieldType": "TUstpFtdcEMailType",
+      "fieldName": "EMail"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyAccountStatusType",
+      "fieldName": "MoneyAccountStatus"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankAccount"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "BankPassWord"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "Password"
+    },
+    {
+      "fieldType": "TUstpFtdcInstallIDType",
+      "fieldName": "InstallID"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "VerifyCertNoFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "CurrencyID"
+    },
+    {
+      "fieldType": "TUstpFtdcCashExchangeCodeType",
+      "fieldName": "CashExchangeCode"
+    },
+    {
+      "fieldType": "TUstpFtdcMessageType",
+      "fieldName": "Digest"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcDeviceIdType",
+      "fieldName": "DeviceID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankSecuAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankCodingForFutureType",
+      "fieldName": "BrokerIDByBank"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankSecuAcc"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "BankPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "SecuPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcOperNoType",
+      "fieldName": "OperNo"
+    },
+    {
+      "fieldType": "TUstpFtdcTIDType",
+      "fieldName": "TID"
+    },
+    {
+      "fieldType": "TUstpFtdcErrorIDType",
+      "fieldName": "ErrorID"
+    },
+    {
+      "fieldType": "TUstpFtdcErrorMsgType",
+      "fieldName": "ErrorMsg"
+    }
+  ],
+  "CUstpFtdcChangeAccountFieldField": [
+    {
+      "fieldType": "TUstpFtdcTradeCodeType",
+      "fieldName": "TradeCode"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureBranchIDType",
+      "fieldName": "BrokerBranchID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradeDate"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "TradeTime"
+    },
+    {
+      "fieldType": "TUstpFtdcBankSerialType",
+      "fieldName": "BankSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcPlateSerialType",
+      "fieldName": "PlateSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "LastFragment"
+    },
+    {
+      "fieldType": "TUstpFtdcSessionIDType",
+      "fieldName": "SessionID"
+    },
+    {
+      "fieldType": "TUstpFtdcIndividualNameType",
+      "fieldName": "CustomerName"
+    },
+    {
+      "fieldType": "TUstpFtdcIdCardTypeType",
+      "fieldName": "IdCardType"
+    },
+    {
+      "fieldType": "TUstpFtdcIdentifiedCardNoType",
+      "fieldName": "IdentifiedCardNo"
+    },
+    {
+      "fieldType": "TUstpFtdcGenderType",
+      "fieldName": "Gender"
+    },
+    {
+      "fieldType": "TUstpFtdcCountryCodeType",
+      "fieldName": "CountryCode"
+    },
+    {
+      "fieldType": "TUstpFtdcCustTypeType",
+      "fieldName": "CustType"
+    },
+    {
+      "fieldType": "TUstpFtdcAddressType",
+      "fieldName": "Address"
+    },
+    {
+      "fieldType": "TUstpFtdcZipCodeType",
+      "fieldName": "ZipCode"
+    },
+    {
+      "fieldType": "TUstpFtdcTelephoneType",
+      "fieldName": "Telephone"
+    },
+    {
+      "fieldType": "TUstpFtdcMobilePhoneType",
+      "fieldName": "MobilePhone"
+    },
+    {
+      "fieldType": "TUstpFtdcFaxType",
+      "fieldName": "Fax"
+    },
+    {
+      "fieldType": "TUstpFtdcEMailType",
+      "fieldName": "EMail"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyAccountStatusType",
+      "fieldName": "MoneyAccountStatus"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankAccount"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "BankPassWord"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "NewBankAccount"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "NewBankPassWord"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "Password"
+    },
+    {
+      "fieldType": "TUstpFtdcInstallIDType",
+      "fieldName": "InstallID"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "VerifyCertNoFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "CurrencyID"
+    },
+    {
+      "fieldType": "TUstpFtdcMessageType",
+      "fieldName": "Digest"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankCodingForFutureType",
+      "fieldName": "BrokerIDByBank"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "BankPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "SecuPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcTIDType",
+      "fieldName": "TID"
+    },
+    {
+      "fieldType": "TUstpFtdcErrorIDType",
+      "fieldName": "ErrorID"
+    },
+    {
+      "fieldType": "TUstpFtdcErrorMsgType",
+      "fieldName": "ErrorMsg"
+    }
+  ],
+  "CUstpFtdcTransferFieldRtnField": [
+    {
+      "fieldType": "TUstpFtdcTradeCodeType",
+      "fieldName": "TradeCode"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureBranchIDType",
+      "fieldName": "BrokerBranchID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradeDate"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "TradeTime"
+    },
+    {
+      "fieldType": "TUstpFtdcBankSerialType",
+      "fieldName": "BankSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcPlateSerialType",
+      "fieldName": "PlateSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "LastFragment"
+    },
+    {
+      "fieldType": "TUstpFtdcSessionIDType",
+      "fieldName": "SessionID"
+    },
+    {
+      "fieldType": "TUstpFtdcIndividualNameType",
+      "fieldName": "CustomerName"
+    },
+    {
+      "fieldType": "TUstpFtdcIdCardTypeType",
+      "fieldName": "IdCardType"
+    },
+    {
+      "fieldType": "TUstpFtdcIdentifiedCardNoType",
+      "fieldName": "IdentifiedCardNo"
+    },
+    {
+      "fieldType": "TUstpFtdcCustTypeType",
+      "fieldName": "CustType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankAccount"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "BankPassWord"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "Password"
+    },
+    {
+      "fieldType": "TUstpFtdcInstallIDType",
+      "fieldName": "InstallID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureSerialType",
+      "fieldName": "FutureSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "VerifyCertNoFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "CurrencyID"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "TradeAmount"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "FutureFetchAmount"
+    },
+    {
+      "fieldType": "TUstpFtdcFeePayFlagType",
+      "fieldName": "FeePayFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "CustFee"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "BrokerFee"
+    },
+    {
+      "fieldType": "TUstpFtdcMessageType",
+      "fieldName": "Message"
+    },
+    {
+      "fieldType": "TUstpFtdcMessageType",
+      "fieldName": "Digest"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcDeviceIdType",
+      "fieldName": "DeviceID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankSecuAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankCodingForFutureType",
+      "fieldName": "BrokerIDByBank"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankSecuAcc"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "BankPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "SecuPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcOperNoType",
+      "fieldName": "OperNo"
+    },
+    {
+      "fieldType": "TUstpFtdcRequestIDType",
+      "fieldName": "RequestID"
+    },
+    {
+      "fieldType": "TUstpFtdcTIDType",
+      "fieldName": "TID"
+    },
+    {
+      "fieldType": "TUstpFtdcTransferStatusType",
+      "fieldName": "TransferStatus"
+    },
+    {
+      "fieldType": "TUstpFtdcErrorIDType",
+      "fieldName": "ErrorID"
+    },
+    {
+      "fieldType": "TUstpFtdcErrorMsgType",
+      "fieldName": "ErrorMsg"
+    }
+  ],
+  "CUstpFtdcAccountFieldErrRtnField": [
+    {
+      "fieldType": "TUstpFtdcTradeCodeType",
+      "fieldName": "TradeCode"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureBranchIDType",
+      "fieldName": "BrokerBranchID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradeDate"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "TradeTime"
+    },
+    {
+      "fieldType": "TUstpFtdcBankSerialType",
+      "fieldName": "BankSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcPlateSerialType",
+      "fieldName": "PlateSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "LastFragment"
+    },
+    {
+      "fieldType": "TUstpFtdcSessionIDType",
+      "fieldName": "SessionID"
+    },
+    {
+      "fieldType": "TUstpFtdcIndividualNameType",
+      "fieldName": "CustomerName"
+    },
+    {
+      "fieldType": "TUstpFtdcIdCardTypeType",
+      "fieldName": "IdCardType"
+    },
+    {
+      "fieldType": "TUstpFtdcIdentifiedCardNoType",
+      "fieldName": "IdentifiedCardNo"
+    },
+    {
+      "fieldType": "TUstpFtdcCustTypeType",
+      "fieldName": "CustType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankAccount"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "BankPassWord"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "Password"
+    },
+    {
+      "fieldType": "TUstpFtdcInstallIDType",
+      "fieldName": "InstallID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureSerialType",
+      "fieldName": "FutureSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "VerifyCertNoFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "CurrencyID"
+    },
+    {
+      "fieldType": "TUstpFtdcMessageType",
+      "fieldName": "Digest"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcDeviceIdType",
+      "fieldName": "DeviceID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankSecuAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankCodingForFutureType",
+      "fieldName": "BrokerIDByBank"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankSecuAcc"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "BankPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "SecuPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcOperNoType",
+      "fieldName": "OperNo"
+    },
+    {
+      "fieldType": "TUstpFtdcRequestIDType",
+      "fieldName": "RequestID"
+    },
+    {
+      "fieldType": "TUstpFtdcTIDType",
+      "fieldName": "TID"
+    },
+    {
+      "fieldType": "TUstpFtdcErrorIDType",
+      "fieldName": "ErrorID"
+    },
+    {
+      "fieldType": "TUstpFtdcErrorMsgType",
+      "fieldName": "ErrorMsg"
+    }
+  ],
+  "CUstpFtdcRepealFieldRtnField": [
+    {
+      "fieldType": "TUstpFtdcRepealTimeIntervalType",
+      "fieldName": "RepealTimeInterval"
+    },
+    {
+      "fieldType": "TUstpFtdcRepealedTimesType",
+      "fieldName": "RepealedTimes"
+    },
+    {
+      "fieldType": "TUstpFtdcBankRepealFlagType",
+      "fieldName": "BankRepealFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerRepealFlagType",
+      "fieldName": "BrokerRepealFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPlateSerialType",
+      "fieldName": "PlateRepealSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcBankSerialType",
+      "fieldName": "BankRepealSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureSerialType",
+      "fieldName": "FutureRepealSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcTradeCodeType",
+      "fieldName": "TradeCode"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BankID"
+    },
+    {
+      "fieldType": "TUstpFtdcInvestorIDType",
+      "fieldName": "BankBrchID"
+    },
+    {
+      "fieldType": "TUstpFtdcBrokerIDType",
+      "fieldName": "BrokerID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureBranchIDType",
+      "fieldName": "BrokerBranchID"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradeDate"
+    },
+    {
+      "fieldType": "TUstpFtdcTimeType",
+      "fieldName": "TradeTime"
+    },
+    {
+      "fieldType": "TUstpFtdcBankSerialType",
+      "fieldName": "BankSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcDateType",
+      "fieldName": "TradingDay"
+    },
+    {
+      "fieldType": "TUstpFtdcPlateSerialType",
+      "fieldName": "PlateSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "LastFragment"
+    },
+    {
+      "fieldType": "TUstpFtdcSessionIDType",
+      "fieldName": "SessionID"
+    },
+    {
+      "fieldType": "TUstpFtdcIndividualNameType",
+      "fieldName": "CustomerName"
+    },
+    {
+      "fieldType": "TUstpFtdcIdCardTypeType",
+      "fieldName": "IdCardType"
+    },
+    {
+      "fieldType": "TUstpFtdcIdentifiedCardNoType",
+      "fieldName": "IdentifiedCardNo"
+    },
+    {
+      "fieldType": "TUstpFtdcCustTypeType",
+      "fieldName": "CustType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankAccount"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "BankPassWord"
+    },
+    {
+      "fieldType": "TUstpFtdcAccountIDType",
+      "fieldName": "AccountID"
+    },
+    {
+      "fieldType": "TUstpFtdcPasswordType",
+      "fieldName": "Password"
+    },
+    {
+      "fieldType": "TUstpFtdcInstallIDType",
+      "fieldName": "InstallID"
+    },
+    {
+      "fieldType": "TUstpFtdcFutureSerialType",
+      "fieldName": "FutureSerial"
+    },
+    {
+      "fieldType": "TUstpFtdcUserIDType",
+      "fieldName": "UserID"
+    },
+    {
+      "fieldType": "TUstpFtdcBoolType",
+      "fieldName": "VerifyCertNoFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcCurrencyIDType",
+      "fieldName": "CurrencyID"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "TradeAmount"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "FutureFetchAmount"
+    },
+    {
+      "fieldType": "TUstpFtdcFeePayFlagType",
+      "fieldName": "FeePayFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "CustFee"
+    },
+    {
+      "fieldType": "TUstpFtdcMoneyType",
+      "fieldName": "BrokerFee"
+    },
+    {
+      "fieldType": "TUstpFtdcMessageType",
+      "fieldName": "Message"
+    },
+    {
+      "fieldType": "TUstpFtdcMessageType",
+      "fieldName": "Digest"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcDeviceIdType",
+      "fieldName": "DeviceID"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccType",
+      "fieldName": "BankSecuAccType"
+    },
+    {
+      "fieldType": "TUstpFtdcBankCodingForFutureType",
+      "fieldName": "BrokerIDByBank"
+    },
+    {
+      "fieldType": "TUstpFtdcBankAccountType",
+      "fieldName": "BankSecuAcc"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "BankPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcPwdFlagTypeType",
+      "fieldName": "SecuPwdFlag"
+    },
+    {
+      "fieldType": "TUstpFtdcOperNoType",
+      "fieldName": "OperNo"
+    },
+    {
+      "fieldType": "TUstpFtdcRequestIDType",
+      "fieldName": "RequestID"
+    },
+    {
+      "fieldType": "TUstpFtdcTIDType",
+      "fieldName": "TID"
+    },
+    {
+      "fieldType": "TUstpFtdcTransferStatusType",
+      "fieldName": "TransferStatus"
+    },
+    {
+      "fieldType": "TUstpFtdcErrorIDType",
+      "fieldName": "ErrorID"
+    },
+    {
+      "fieldType": "TUstpFtdcErrorMsgType",
+      "fieldName": "ErrorMsg"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+.vscode
+.vscode-upload.json
+*.con
+node_modules/
+build/

@@ -1,0 +1,72 @@
+else if (funcName == "subscribeMarketDataTopic") {
+    MD_DEBUG_LOG("call function subscribeMarketDataTopic");
+    ReqID++;
+    int ret = this->api->SubscribeMarketDataTopic();
+    return ret;
+  }else if (funcName == "setHeartbeatTimeout") {
+    MD_DEBUG_LOG("call function setHeartbeatTimeout");
+    ReqID++;
+    int ret = this->api->SetHeartbeatTimeout();
+    return ret;
+  }else if (funcName == "reqUserLogin") {
+    MD_DEBUG_LOG("call function reqUserLogin");
+    ReqID++;
+    CUstpFtdcReqUserLoginField req;
+    memset(&req, 0, sizeof(CUstpFtdcReqUserLoginField));
+  strcpy(req.TradingDay, getString(params, "TradingDay").c_str());
+  strcpy(req.UserID, getString(params, "UserID").c_str());
+  strcpy(req.BrokerID, getString(params, "BrokerID").c_str());
+  strcpy(req.Password, getString(params, "Password").c_str());
+  strcpy(req.UserProductInfo, getString(params, "UserProductInfo").c_str());
+  strcpy(req.InterfaceProductInfo, getString(params, "InterfaceProductInfo").c_str());
+  strcpy(req.ProtocolInfo, getString(params, "ProtocolInfo").c_str());
+  strcpy(req.IPAddress, getString(params, "IPAddress").c_str());
+  strcpy(req.MacAddress, getString(params, "MacAddress").c_str());
+  req.DataCenterID = getNumber(params, "DataCenterID");
+  req.UserProductFileSize = getNumber(params, "UserProductFileSize");
+    int ret = this->api->ReqUserLogin(&req, ReqID);
+    return ret;
+  }else if (funcName == "reqUserLogout") {
+    MD_DEBUG_LOG("call function reqUserLogout");
+    ReqID++;
+    CUstpFtdcReqUserLogoutField req;
+    memset(&req, 0, sizeof(CUstpFtdcReqUserLogoutField));
+  strcpy(req.BrokerID, getString(params, "BrokerID").c_str());
+  strcpy(req.UserID, getString(params, "UserID").c_str());
+    int ret = this->api->ReqUserLogout(&req, ReqID);
+    return ret;
+  }else if (funcName == "reqSubscribeTopic") {
+    MD_DEBUG_LOG("call function reqSubscribeTopic");
+    ReqID++;
+    CUstpFtdcDisseminationField req;
+    memset(&req, 0, sizeof(CUstpFtdcDisseminationField));
+  req.SequenceSeries = getNumber(params, "SequenceSeries");
+  req.SequenceNo = getNumber(params, "SequenceNo");
+    int ret = this->api->ReqSubscribeTopic(&req, ReqID);
+    return ret;
+  }else if (funcName == "reqQryTopic") {
+    MD_DEBUG_LOG("call function reqQryTopic");
+    ReqID++;
+    CUstpFtdcDisseminationField req;
+    memset(&req, 0, sizeof(CUstpFtdcDisseminationField));
+  req.SequenceSeries = getNumber(params, "SequenceSeries");
+  req.SequenceNo = getNumber(params, "SequenceNo");
+    int ret = this->api->ReqQryTopic(&req, ReqID);
+    return ret;
+  }else if (funcName == "reqSubMarketData") {
+    MD_DEBUG_LOG("call function reqSubMarketData");
+    ReqID++;
+    CUstpFtdcSpecificInstrumentField req;
+    memset(&req, 0, sizeof(CUstpFtdcSpecificInstrumentField));
+  strcpy(req.InstrumentID, getString(params, "InstrumentID").c_str());
+    int ret = this->api->ReqSubMarketData(&req, ReqID);
+    return ret;
+  }else if (funcName == "reqUnSubMarketData") {
+    MD_DEBUG_LOG("call function reqUnSubMarketData");
+    ReqID++;
+    CUstpFtdcSpecificInstrumentField req;
+    memset(&req, 0, sizeof(CUstpFtdcSpecificInstrumentField));
+  strcpy(req.InstrumentID, getString(params, "InstrumentID").c_str());
+    int ret = this->api->ReqUnSubMarketData(&req, ReqID);
+    return ret;
+  }

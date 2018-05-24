@@ -1,0 +1,17 @@
+{
+  "name": "femas-bridge-napi",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --napi-modules try-trader.js",
+    "debug": "node-gyp rebuild && npm start"
+  },
+  "author": "charmer1989",
+  "license": "ISC",
+  "dependencies": {
+    "iconv-lite": "^0.4.18",
+    "lodash": "^4.17.4",
+    "node-addon-api": "^1.0.0"
+  }
+}
